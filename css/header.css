@@ -1,0 +1,31 @@
+
+/*导航栏*/
+.menu {
+    position: fixed;
+    text-align: center;
+    width: 100%;
+    background-color: transparent;
+    z-index: 5;
+}
+
+.menu ul {
+    text-align: center;
+    width: -moz-fit-content;
+    width: fit-content;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.menu ul li {
+    float: left;
+    width: 100px;
+    height: 100%;
+    list-style: none;
+}
+
+.menu ul a {
+    text-decoration: none;
+    color: #fff;
+    text-align: center;
+    line-height: 60px;
+}
